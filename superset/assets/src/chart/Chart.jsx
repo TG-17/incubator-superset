@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Tooltip } from 'react-bootstrap';
-import dompurify from '../../../../../mock-dompurify/dompurify';
-
 import ChartBody from './ChartBody';
 import Loading from '../components/Loading';
 import { Logger, LOG_ACTIONS_RENDER_CHART } from '../logger';
@@ -11,6 +9,8 @@ import RefreshChartOverlay from '../components/RefreshChartOverlay';
 import visPromiseLookup from '../visualizations';
 import sandboxedEval from '../modules/sandbox';
 import './chart.css';
+
+const dompurify = {sanitize: str => str}
 
 const propTypes = {
   annotationData: PropTypes.object,
