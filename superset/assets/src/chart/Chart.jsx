@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Tooltip } from 'react-bootstrap';
-import dompurify from 'dompurify';
+import dompurify from '../../../../../mock-dompurify/dompurify';
 
 import ChartBody from './ChartBody';
 import Loading from '../components/Loading';

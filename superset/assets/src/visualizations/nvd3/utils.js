@@ -1,6 +1,6 @@
 import d3 from 'd3';
 import d3tip from 'd3-tip';
-import dompurify from 'dompurify';
+import dompurify from '../../../../../mock-dompurify/dompurify';
 import { formatDateVerbose } from '../../modules/dates';
 import { TIME_SHIFT_PATTERN } from '../../utils/common';
 

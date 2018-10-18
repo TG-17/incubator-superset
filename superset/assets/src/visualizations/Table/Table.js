@@ -3,7 +3,7 @@ import $ from 'jquery';
 import PropTypes from 'prop-types';
 import dt from 'datatables.net-bs';
 import 'datatables.net-bs/css/dataTables.bootstrap.css';
-import dompurify from 'dompurify';
+import dompurify from '../../../../../../mock-dompurify/dompurify';
 import { fixDataTableBodyHeight, d3TimeFormatPreset } from '../../modules/utils';
 import './Table.css';
 
