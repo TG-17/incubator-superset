@@ -73,7 +73,7 @@
     "deck.gl": "^5.3.4",
     "distributions": "^1.0.0",
     "dnd-core": "^2.6.0",
-    "dompurify": "^1.0.3",
+    "dompurify": "^3.2.4",
     "fastdom": "^1.0.6",
     "geojson-extent": "^0.3.2",
     "geolib": "^2.0.24",
